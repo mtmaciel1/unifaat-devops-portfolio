@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
-    servico: 'DevOps Portfolio - Sistemas de Pedidos',
+    servico: 'DevOps Portfolio API v2',
     aluno: 'SEU NOME AQUI',
     ra: 'SEU RA AQUI',
     aula: '01 - Fundamentos de Git e Docker',
