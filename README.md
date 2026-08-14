@@ -18,3 +18,11 @@ Aqui documento minha evolução desde os fundamentos de Git e Docker até pipeli
 ## Aprendizados
 
 [Atualize esta seção a cada aula com seus principais aprendizados]
+
+## Como Executar (Aula 01)
+
+```bash
+cd aula-01/app
+npm install
+npm start
+```
