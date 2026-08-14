@@ -24,6 +24,15 @@ app.get('/health', (req, res) => {
   });
 });
 
+app.get('/info', (req, res) => {
+  res.json({
+    empresa: 'TechNova',
+    projeto: 'Portfólio DevOps - UniFAAT 2026-2',
+    equipe: 'Platform Engineering',
+    ambiente: process.env.NODE_ENV || 'development'
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
