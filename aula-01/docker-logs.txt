@@ -1,0 +1,8 @@
+Servidor rodando na porta 3000
+---
+Container running:
+CONTAINER ID   IMAGE                  COMMAND                  CREATED                  STATUS          PORTS                                         NAMES
+6ad86208f083   portfolio-aula01:1.0   "docker-entrypoint.s…"   Less than a second ago   Up 41 seconds   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   portfolio-test
+---
+API Response:
+{"servico":"DevOps Portfolio API","aluno":"Matheus Maciel de Paula","ra":"6325065","aula":"01 - Fundamentos de Git e Docker","status":"online","timestamp":"2026-08-20T00:31:18.694Z"}
