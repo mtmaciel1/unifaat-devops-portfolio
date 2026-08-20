@@ -1,4 +1,4 @@
-[200~# Aula 01 — Fundamentos de Git e Docker
+# Aula 01 — Fundamentos de Git e Docker
 
 ## O que aprendi
 - Git: versionamento, criação de branches e commits.
